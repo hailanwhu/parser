@@ -324,7 +324,8 @@ const (
 	JSONLength        = "json_length"
 
 	// TiDB internal function.
-	TiDBDecodeKey = "tidb_decode_key"
+	TiDBDecodeKey            = "tidb_decode_key"
+	TiDBOptimizedLogicalPlan = "get_optimized_logic_plan"
 )
 
 // FuncCallExpr is for function expression.
