@@ -341,6 +341,8 @@ const (
 	NextVal = "nextval"
 	LastVal = "lastval"
 	SetVal  = "setval"
+
+	BuildHypoIndex = "build_hypo_index"
 )
 
 type FuncCallExprType int8
